@@ -97,3 +97,28 @@ code {
 .main-section .tag-list li {
    margin-bottom: 0.5rem;
 }
+
+@media (max-width: 800px) {
+   #navbar {
+      position: static;
+      width: 100%;
+      max-width: 100%;
+      border: none;
+   }
+
+   #navbar .nav-link {
+      padding-left: 1.5em;
+   }
+
+   #navbar ul li:first-child {
+      border-width: 3px;
+   }
+
+   #navbar ul li:last-child {
+      border-bottom-width: 3px;
+   }
+
+   #main-doc {
+      margin: 0;
+   }
+}
