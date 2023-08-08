@@ -6,13 +6,68 @@
    padding: 0;
 }
 
+html {
+   background-color: rgba(221, 255, 127, 0.425);
+}
+
 body {
-   background-color: #f7f7f7;
+   min-height: 100vh;
+}
+
+pre {
+   white-space: pre-line;
 }
 
 code {
    display: block;
-   background-color: #e2e2e2;
+   background-color: rgba(255, 166, 0, 0.623);
    padding: 1.5em;
    margin: 0.5rem;
+   position: relative;
+}
+
+#navbar {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 40%;
+   max-width: 305px;
+   height: 100%;
+   text-align: left;
+   border-right: 3px solid black;
+}
+
+#navbar header {
+   text-align: center;
+   font-size: xx-large;
+   margin: 1rem;
+}
+
+#navbar ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+#navbar ul li {
+   border-top: 1px solid black;
+   border-right: none;
+}
+
+#navbar ul li:last-child {
+   border-bottom: 2px solid black;
+}
+
+#navbar .nav-link {
+   font-weight: thin;
+   text-decoration: none;
+   color: inherit;
+   display: block;
+   padding: 1em;
+   padding-left: 3em;
+}
+
+#main-doc {
+   position: absolute;
+   margin-left: 305px;
+   padding: 2rem;
 }
