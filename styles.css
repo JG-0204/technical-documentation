@@ -7,7 +7,9 @@
 }
 
 html {
-   background-color: rgba(221, 255, 127, 0.425);
+   background-color: #fffff7;
+   line-height: 1.5;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -20,10 +22,10 @@ pre {
 
 code {
    display: block;
-   background-color: rgba(255, 166, 0, 0.623);
-   padding: 1.5em;
-   margin: 0.5rem;
+   padding: 0.5em 1.5em;
+   margin: 1.5rem;
    position: relative;
+   font-family: 'Courier New', Courier, monospace;
 }
 
 #navbar {
@@ -54,7 +56,7 @@ code {
 }
 
 #navbar ul li:last-child {
-   border-bottom: 2px solid black;
+   border-bottom: 1px solid black;
 }
 
 #navbar .nav-link {
@@ -63,11 +65,35 @@ code {
    color: inherit;
    display: block;
    padding: 1em;
-   padding-left: 3em;
+   padding-left: 4em;
 }
 
 #main-doc {
    position: absolute;
    margin-left: 305px;
    padding: 2rem;
+}
+
+.main-section {
+   margin-bottom: 0.5rem;
+}
+
+.main-section header {
+   font-size: xx-large;
+   margin-bottom: 1em;
+}
+
+.main-section p {
+   margin-left: 1em;
+   text-align: justify;
+}
+
+.main-section .tag-list {
+   list-style-type: none;
+   margin-left: 1em;
+   margin-top: 1rem;
+}
+
+.main-section .tag-list li {
+   margin-bottom: 0.5rem;
 }
