@@ -90,7 +90,7 @@ code {
 
 .main-section .tag-list {
    list-style-type: none;
-   margin-left: 1em;
+   margin-left: 1rem;
    margin-top: 1rem;
 }
 
@@ -99,6 +99,10 @@ code {
 }
 
 @media (max-width: 800px) {
+   code {
+      margin: 1rem;
+   }
+
    #navbar {
       position: static;
       width: 100%;
@@ -120,5 +124,10 @@ code {
 
    #main-doc {
       margin: 0;
+      padding: 1rem;
+   }
+
+   .main-section h2 {
+      margin-bottom: 0.5em;
    }
 }
